@@ -27,7 +27,7 @@ func initSql()(db *sql.DB, err error){
 }
 
 type User struct {
-	Id	 	int64
+	Id	 int64
 	Name  	string
 }
 
